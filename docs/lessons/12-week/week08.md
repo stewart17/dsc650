@@ -28,7 +28,6 @@ After completing this week, you should be able to:
 * [Kafka Use Cases][kafka-use-cases]
 * [Kafka Introduction][kafka-introduction]
 * [The Log: What every software engineer should know about real-time data's unifying abstraction][kafka-the-log]
-* [RabbitMQ Semantics][rabbitmq-semantics]
 * [Representational State Transfer (REST)][fielding-rest]
 * [Spark Structured Streaming][spark-structured-streaming]
 * [Zookeeper][zookeeper]
@@ -170,6 +169,5 @@ How does this style of architecture compare to synchronous architectures such as
 [kafka-the-log]: https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
 [kafka-use-cases]: https://kafka.apache.org/uses
 [kafka-introduction]: https://kafka.apache.org/intro
-[rabbitmq-semantics]: https://www.rabbitmq.com/semantics.html]
 [spark-structured-streaming]: http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html
 [zookeeper]: https://zookeeper.apache.org/
