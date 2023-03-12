@@ -231,7 +231,7 @@ You are required to have a minimum of 10 posts each week.  Similar to previous c
 [hbase-data-model]: https://hbase.apache.org/book.html#datamodel
 [keras]: https://keras.io/
 [multi-dimension-data]: https://youtu.be/DfK83xEtJ_k
-[orientdb-download]: https://orientdb.com/download-2/
+[orientdb-download]: https://orientdb.org/download
 [orientdb-getting-started]: https://orientdb.org/docs/3.2.x/
 [pickle]: https://docs.python.org/3/library/pickle.html
 [python-sqlite3]: https://docs.python.org/3/library/sqlite3.html
