@@ -1,1 +1,4 @@
-format,uncompressed,gzip,snappy
+File Format,Uncompressed Size (bytes),Compressed Size (bytes)
+Avro,19646227,N/A
+Protocol Buffers,22056795,N/A
+Protocol Buffers (with Snappy compression),22056795,3561091

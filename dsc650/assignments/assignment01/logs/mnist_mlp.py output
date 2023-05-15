@@ -1,0 +1,63 @@
+60000 train samples
+10000 test samples
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 512)               401920    
+                                                                 
+ dropout (Dropout)           (None, 512)               0         
+                                                                 
+ dense_1 (Dense)             (None, 512)               262656    
+                                                                 
+ dropout_1 (Dropout)         (None, 512)               0         
+                                                                 
+ dense_2 (Dense)             (None, 10)                5130      
+                                                                 
+=================================================================
+Total params: 669,706
+Trainable params: 669,706
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/20
+469/469 [==============================] - 3s 5ms/step - loss: 0.2484 - accuracy: 0.9232 - val_loss: 0.1049 - val_accuracy: 0.9662
+Epoch 2/20
+469/469 [==============================] - 2s 5ms/step - loss: 0.1041 - accuracy: 0.9681 - val_loss: 0.0967 - val_accuracy: 0.9721
+Epoch 3/20
+469/469 [==============================] - 3s 5ms/step - loss: 0.0749 - accuracy: 0.9774 - val_loss: 0.0799 - val_accuracy: 0.9770
+Epoch 4/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0605 - accuracy: 0.9820 - val_loss: 0.0725 - val_accuracy: 0.9803
+Epoch 5/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0501 - accuracy: 0.9851 - val_loss: 0.0745 - val_accuracy: 0.9819
+Epoch 6/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0425 - accuracy: 0.9879 - val_loss: 0.0798 - val_accuracy: 0.9814
+Epoch 7/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0375 - accuracy: 0.9887 - val_loss: 0.0817 - val_accuracy: 0.9805
+Epoch 8/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0324 - accuracy: 0.9901 - val_loss: 0.0845 - val_accuracy: 0.9823
+Epoch 9/20
+469/469 [==============================] - 3s 5ms/step - loss: 0.0295 - accuracy: 0.9911 - val_loss: 0.0922 - val_accuracy: 0.9821
+Epoch 10/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0294 - accuracy: 0.9912 - val_loss: 0.0935 - val_accuracy: 0.9820
+Epoch 11/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0269 - accuracy: 0.9922 - val_loss: 0.1073 - val_accuracy: 0.9811
+Epoch 12/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0255 - accuracy: 0.9931 - val_loss: 0.1100 - val_accuracy: 0.9818
+Epoch 13/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0252 - accuracy: 0.9932 - val_loss: 0.0948 - val_accuracy: 0.9832
+Epoch 14/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0216 - accuracy: 0.9940 - val_loss: 0.1223 - val_accuracy: 0.9815
+Epoch 15/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0196 - accuracy: 0.9944 - val_loss: 0.1148 - val_accuracy: 0.9838
+Epoch 16/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0178 - accuracy: 0.9950 - val_loss: 0.1348 - val_accuracy: 0.9821
+Epoch 17/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0206 - accuracy: 0.9946 - val_loss: 0.1295 - val_accuracy: 0.9827
+Epoch 18/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0208 - accuracy: 0.9948 - val_loss: 0.1264 - val_accuracy: 0.9832
+Epoch 19/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0186 - accuracy: 0.9950 - val_loss: 0.1098 - val_accuracy: 0.9841
+Epoch 20/20
+469/469 [==============================] - 3s 6ms/step - loss: 0.0166 - accuracy: 0.9958 - val_loss: 0.1306 - val_accuracy: 0.9825
+Test loss: 0.13055460155010223
+Test accuracy: 0.9825000166893005
